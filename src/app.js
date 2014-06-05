@@ -1,0 +1,9 @@
+function autoSave(event){
+	//contents 내용 가져오기
+	var value = $('#contents').val();
+	window.localStorage.setItem('note_contents',value);
+	// console.log(value);
+}
+
+// function()으로 익명함수주는 것 보다 이게 낫다.
+$('$contents').on('keyup',autoSave);
