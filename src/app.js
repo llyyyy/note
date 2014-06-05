@@ -3,7 +3,7 @@ function autoSave(event){
 	//contents 내용 가져오기
 	var value = $('#contents').val();
 	window.localStorage.setItem('note_contents',value);
-	// console.log(value);
+	 console.log(value);
 }
 
 function autoLoad(event){
