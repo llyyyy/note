@@ -1,4 +1,3 @@
-<meta charset="utf-8">
 
 function autoSave(event){
 	//contents 내용 가져오기
