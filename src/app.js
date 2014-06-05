@@ -12,7 +12,7 @@ function autoLoad(event){
 
 
 // function()으로 익명함수주는 것 보다 이게 낫다.
-$('$contents').on('keyup',autoSave);
+$('#contents').on('keyup',autoSave);
 
 // 저장된 text 불러오기
 $(window).on('load',autoLoad);
